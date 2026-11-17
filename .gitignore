@@ -1,0 +1,51 @@
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example
+
+# ─── Google OAuth / Gmail tokens & credentials ────────────────────────────────
+token.json
+credentials.json
+*_token.json
+*_credentials.json
+
+# ─── Python virtual environment ───────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Python cache & compiled files ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Test / generated reports ─────────────────────────────────────────────────
+tests/
+
+# ─── IDE / editor config ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.continue/
+
+# ─── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Personal profile / notes (contain private contact info) ──────────────────
+hoja_de_vida.md
+prompt_linkdn.md
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
